@@ -1,0 +1,213 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height:1.5;
+  padding:0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container{  /*Klassen werden mit '.' angesprochen */
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+
+}
+
+ul{
+  padding:0;
+  margin:0;
+}
+
+.button_1{
+  height:38px;
+  background: #e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+
+}
+/* Header */
+
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline; /* Navigationselemente in einer Reihe" */
+  padding:0 20px 0 20px; /* padding oben=0 rechts=20 unten=0 links=20 */
+}
+
+header #branding{  /*IDs werden mit '#' angesprochen */
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+
+
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat 0 -200px;
+  -webkit-filter: grayscale(70%) opacity(80%); /* Chrome, Safari, Opera */
+  filter: grayscale(70%) opacity(80%);
+  background-color: #dddddd;
+  background-position: center;
+  background-blend-mode: darken;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase:hover{
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+
+}
+
+/* Login */
+
+#login{
+  padding:15px;
+  color: #ffffff;
+  background: #35424a
+}
+
+#login h1{
+  float:left;
+}
+
+#login form{
+  float:right;
+  margin-top:20px;
+}
+
+#login input{ /*input[type="email"] würde z.B. nur die Mail betreffen */
+  padding:4px;
+  height:25px;
+  width:200px;
+}
+
+/* Boxes */
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align:center;
+  width:30%;
+  padding:10px;
+  min-width: 200px;
+
+}
+
+#boxes .box img{
+  width:120px;
+}
+
+#boxes .bvdk img{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+#boxes .ipf img{
+  padding-top:7px;
+}
+
+/* Sidebar */
+
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+/* Main-Col */
+
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color: #ffffff;
+  background-color:#e8491d;
+  text-align:center;
+}
+
+/* Kontakt */
+article#contact{
+  width:65%;
+  max-width: 800px;
+  float:left;
+}
+
+#contact input, select {
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  height:25px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#contact textarea{
+  width:100%;
+  padding:15px;
+  resize:none;
+  margin: 8px 0;
+  box-sizing: border-box;
+  height:200px;
+}

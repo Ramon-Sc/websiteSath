@@ -1,0 +1,7 @@
+# hodor_recive.py
+
+Python Socket Server. Recives json message from the send script. Writes them to local files
+
+# hodor_send.py
+
+Python Socket Client. Connects to server and sends json objects of door status

@@ -64,6 +64,7 @@ footer{
   height : 50 px; /* for the sticky footer solution with calc() */
   /*padding:20px; */
   /*margin-top:20px; */
+  margin-bottom:20px; 
   color: #ffffff;
   background-color: var(--accent-color);
   text-align:center;

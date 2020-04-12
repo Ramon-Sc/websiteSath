@@ -60,7 +60,7 @@ ul{
 }
 
 .content {
-  min-height: calc(100vh - 90px); /* for the sticky footer solution with calc() */
+  min-height: calc(100vh - 100px); /* for the sticky footer solution with calc() */
 }
 
 footer{

@@ -55,16 +55,19 @@ ul{
 
 }
 
+.vertical_align{
+  vertical-align: middle;
+}
 
 .content {
-  min-height: calc(100vh - 50px); /* for the sticky footer solution with calc() */
+  min-height: calc(100vh - 100px); /* for the sticky footer solution with calc() */
 }
 
 footer{
-  height : 50 px; /* for the sticky footer solution with calc() */
+  height : 100 px; /* for the sticky footer solution with calc() */
   /*padding:20px; */
   /*margin-top:20px; */
-  margin-bottom:20px; 
+
   color: #ffffff;
   background-color: var(--accent-color);
   text-align:center;

@@ -54,6 +54,22 @@ ul{
   color:#ffffff;
 
 }
+
+
+.content {
+  min-height: calc(100vh - 50px); /* for the sticky footer solution with calc() */
+}
+
+footer{
+  height : 50 px; /* for the sticky footer solution with calc() */
+  padding:20px;
+  margin-top:20px;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  text-align:center;
+}
+
+
 /*
 @media(max-width:800px) {
     .container {
@@ -219,19 +235,6 @@ article#main-col{
   float:left;
   width:65%;
   min-width:400px;
-}
-
-.content {
-  min-height: calc(100vh - 50px);
-}
-
-footer{
-  height : 50 px;
-  padding:20px;
-  margin-top:20px;
-  color: #ffffff;
-  background-color: var(--accent-color);
-  text-align:center;
 }
 
 /* Kontakt */

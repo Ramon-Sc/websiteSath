@@ -60,14 +60,13 @@ ul{
 }
 
 .content {
-  min-height: calc(100vh - 100px); /* for the sticky footer solution with calc() */
+  min-height: calc(100vh - 90px); /* for the sticky footer solution with calc() */
 }
 
 footer{
   height : 100 px; /* for the sticky footer solution with calc() */
-  /*padding:20px; */
-  /*margin-top:20px; */
-
+  padding:20px;
+  margin-top:20px;
   color: #ffffff;
   background-color: var(--accent-color);
   text-align:center;
